@@ -1,0 +1,18 @@
+<!doctype html>
+<html> 
+ <head></head>
+ <body style="text-allign:center"> 
+  <h1>Counter</h1> <span>Counts to the selected number</span> 
+  <br> <span>To count press the button:</span> <button onclick="countto()">Start counting</button> 
+  <script>
+function countto() {
+  let n = prompt("Count to:");
+  n++
+  for (let i = 0; i < n; i++) {
+  console.log(i);
+  alert(i);
+}
+}
+</script> 
+ </body>
+</html>
